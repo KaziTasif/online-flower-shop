@@ -31,6 +31,67 @@ h3{
     justify-content: space-between;
     text-align: center;
 } */
+.featured-flowers{
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: space-evenly; */
+    width: 50%;
+    /* padding: 20px 50px; */
+    padding: 20px 30px 5px 50px;
+    justify-content: space-around;
+}
+
+.img1{
+    border-radius: 500px 500px 0px 0px ;
+    display: flex;
+    margin: 0 auto;
+    /* width: 900px;
+    height:500px; */
+    padding: 60px 7px 0px 20px;
+    justify-content: center;
+    background-color: #F2DEE7;
+}
+
+.img2{
+    padding: 100px 7px 0px 18px;
+    border-radius: 500px 500px 5px 5px ;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    /* width: 900px;
+    height:500px; */
+    justify-content: center;
+    background-color: #D9EFF1;
+
+}
+.img3{
+    padding: 60px 7px 0px 30px;
+    border-radius: 500px 500px 5px 5px ;
+    display: flex;
+    margin: 0 auto;
+    /* width: 900px;
+    height:500px; */
+    justify-content: center;
+    background-color: #E3EBDB;
+}
+
+.flower-text{
+    display: flex;
+    padding: 10px 30px 10px 30px;
+    justify-content: space-evenly;
+
+}
+/* Same Day Delivery Border */
+.same-flowers{
+    display: flex;
+    margin: 40px 135px;
+    width: 950px;
+    height: 200px;
+    /* justify-content: center; */
+    background-color: #F4F4F4;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 .featured{
     display: flex;
@@ -38,8 +99,8 @@ h3{
     background-color: #Fceef1;
     justify-content: space-evenly;
     text-align: center;
-    width: 90%;
-    padding: 30px 90px;
+    width: 84%;
+    padding: 100px 100px;
     margin: 0 auto;
 }
 .btn-primary {
@@ -90,42 +151,43 @@ h3{
     /* padding: 30px 30px 60px 30px; */
     margin: 80px 80px 80px 122px;
     width: 80%;
-    height: 300px;
+    height: 350px;
+    border-radius: 5px 5px 5px 5px;
     background-image: url(../FlowerImages/Rectangle\ 9.png);
     background-repeat: no-repeat;
 }
 
 .input{
     display: flex;
-    border-radius: 5px;
-    margin: 0px 0px 0px 320px;
-    width: 500px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 60px 10px 10px 290px;
+    width: 900px;
     height: 30px;
     justify-content: center;
 }
 .placeholder{
     /* display: block; */
-    padding: ;
-    width: 100px;
-    height: 100px;
+    width: 0px;
+    height: 200px;
 
 }
 
 input{
-    padding: 10px 70px 10px 20px;
-
+    padding: 10px 210px 10px 10px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .input-btn{
-    padding: 15px 15px;
+    /* padding: 15px 10px; */
     margin: auto;
     border-radius: 5px;
     background-color: #E55473;
     border: 0;
     color: white;
     font-size: 10px;
-    font-weight: 700;
-    padding: 15px 
+    font-weight: 600px;
+    padding: 12px 
 }
 
 .instagram-section{
